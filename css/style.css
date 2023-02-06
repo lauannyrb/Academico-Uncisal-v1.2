@@ -51,8 +51,8 @@ header .logo {
 
 main {
     background: #246644;
-    height: 40vh;
-    width: 40vw;
+    height: 400px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +61,107 @@ main {
 }
 
 
+.container form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 
+}
+
+.container input{
+    background-color: #FFFFFF;
+    color: #959595;
+    border:none ; /*Remover as bordas*/
+    width: 370px;
+    height: 55px; /*Definir os tamanhos dos inputs*/
+    outline: none; /*Remover as bordas de quando o usuário clica em uma caixa de texto, fica uma borda*/
+    border-radius: 10px; /*Deixar as bordas aredondadas*/
+    
+}
+
+
+.container h1 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    display: flex;
+    margin-right: auto;
+    color: #FFFFFF;
+}
+
+h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    width: 370px;
+    margin-top: 10px;
+    color: #FFFFFF;
+}
+
+input::placeholder{
+    color: #959595;
+    font-size: 16px; /*Tamanho do texto que tem dentro do input (não o texto que a pessoa escreve)*/
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px;
+    display: flex;
+    align-items: center;    
+    color: #959595;
+    padding-left: 10px; /*Dar um espaço entre o texto e as bordas da caixa de texto*/
+}
+
+form [type="submit"]{
+    display: block;
+    width: 200px;   
+    background-color: #FFFFFF;
+    cursor: pointer; /*Quando passar o mouse em cima, ficar uma mãozinha, indicando que é um link*/
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px; /*Definir os tamanhos dos inputs*/
+    width: 150px;
+
+}
+
+form [value="Entrar"]{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px; /*Tamanho da fonte do botão de entrar*/
+    color: #1E1E1E;
+    display: flex;
+    justify-content: center;
+}
 
 /* ---------------------- Roda pé --------------------*/
 
