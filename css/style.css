@@ -36,8 +36,39 @@ header .logo {
     width: 40vh;
 } 
 
-/* ---------------------- login ---------------------*/
+ ---------------------- login ---------------------
+.container-login {
+    width:100vw;
+    height: 100vh;
+}
+.box-login {
+    background:#246644;
+    width: 60%;
+    height: 60%;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto ;
 
+    }
+
+.box-login>input{
+    width: 100%;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 15px;
+    background: #534d62;
+    color: #FFFFFF;
+    box-shadow:0px 10px 40px #744b4b56 ;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+
+<<<<<<< Updated upstream
 
 
 .area-login {
@@ -45,6 +76,12 @@ header .logo {
     display:flex;
     margin: 60px auto;
     justify-content: center;
+=======
+ 
+/* .area-login {
+    width: 530px;
+    margin:50px auto;
+>>>>>>> Stashed changes
     text-align: center;
 }
 
