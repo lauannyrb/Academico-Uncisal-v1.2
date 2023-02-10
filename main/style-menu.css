@@ -46,7 +46,100 @@ header .texto-informacoes{
 
 /* ------------------- Menu principal ------------------*/
 
+.centro {
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #FFFFFF;
+}
 
+
+
+main .sistema-academico{
+    margin-top: 25px;
+    background: #246644;
+    width: 542px;
+    height: 96px;
+    box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.sistema-academico h1{
+    font-family: 'Inter';
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.menus{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    background-color: aqua;
+}
+
+.linha-cima{
+    width: 542px;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha-baixo{
+    width: 542px;
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.linha1-1{
+    background-color: #246644;
+    border-radius: 20px;
+    width: 225px;
+    height: 225px;
+    margin-right: 95px;
+}
+
+
+.linha1-2{
+    background-color: #246644;
+    border-radius: 20px;
+    width: 225px;
+    height: 225px;
+}
+
+.linha2-1{
+    background-color: #246644;
+    border-radius: 20px;
+    width: 225px;
+    height: 225px;
+    margin-right: 95px;
+}
+
+.linha2-2{
+    background-color: #246644;
+    border-radius: 20px;
+    width: 225px;
+    height: 225px;
+    
+}
+
+.sair{
+    width: 128px;
+    height: 66px;
+    background: #246644;
+    border-radius: 45px;
+}
 
 
 
@@ -54,7 +147,7 @@ header .texto-informacoes{
 
 
 footer {
-    width: 100%;
+    width: 100vh;
     height: 10vh;
     background: #246644;
     display: flex;
