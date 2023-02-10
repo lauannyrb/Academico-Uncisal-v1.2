@@ -1,0 +1,60 @@
+.form-container {
+  background-color: #246644;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 70vw;
+  height: 70vh;
+  left: 20%;
+  top: 20%;
+  border-radius: 43px;
+
+}
+h1{
+  color: #ffffff;
+}
+label {
+  width: 30%;
+  height: 10%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 1%;
+  font-size:110%;
+}
+input{
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(245, 224, 224);
+
+}
+select{
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(245, 224, 224);
+}
+
+
+button {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid gray;
+  border-radius: 4px;
+  background-color: lightgray;
+  font-size: 16px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.print-icon {
+  background: url(https://image.flaticon.com/icons/svg/61/61456.svg) no-repeat;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
