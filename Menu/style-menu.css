@@ -278,19 +278,42 @@ main .meio{
 }
 
 .sair [type="submit"]{
-    width: 128px;
-    height: 66px;
-    background: #246644;
+    width: 100px;
+    height: 50px;
+    background: #246644 url("/Menu/img-menu/sair.png") no-repeat center center;
+    background-size: 80%; /* define o tamanho da imagem em relação ao botão */
     border-radius: 45px;
     border: none;
+    cursor: pointer;
 }
 
 
-main .sair{
+.sair{
     display: flex;
     justify-content:right;
-    margin-top: -5px;
+    margin-top: -60px;
+    margin-right: 10px;
 } 
+
+@media only screen and (max-width: 800px) {
+    .sair [type="submit"]{
+        width: 80px;
+        height: 6vh;
+        background: #246644 url("/Menu/img-menu/sair.png") no-repeat center center;
+        background-size: 80%; /* define o tamanho da imagem em relação ao botão */
+        border-radius: 45px;
+        border: none;
+    }
+
+    .sair{
+        display: flex;
+        justify-content:right;
+        margin-top: -60px;
+        margin-right: 10px;
+    } 
+
+}
+
 /* ---------------------- Roda pé --------------------*/
 
 
