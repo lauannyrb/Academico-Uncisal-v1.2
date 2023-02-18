@@ -36,39 +36,8 @@ header .logo {
     width: 40vh;
 } 
 
- ---------------------- login ---------------------
-.container-login {
-    width:100vw;
-    height: 100vh;
-}
-.box-login {
-    background:#246644;
-    width: 60%;
-    height: 60%;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto ;
+/* ---------------------- login ---------------------*/
 
-    }
-
-.box-login>input{
-    width: 100%;
-    border: none;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-radius: 10px;
-    padding: 15px;
-    background: #534d62;
-    color: #FFFFFF;
-    box-shadow:0px 10px 40px #744b4b56 ;
-    outline: none;
-    box-sizing: border-box;
-
-}
-
-
-<<<<<<< Updated upstream
 
 
 .area-login {
@@ -76,12 +45,6 @@ header .logo {
     display:flex;
     margin: 60px auto;
     justify-content: center;
-=======
- 
-/* .area-login {
-    width: 530px;
-    margin:50px auto;
->>>>>>> Stashed changes
     text-align: center;
 }
 
@@ -102,23 +65,23 @@ main {
     display: flex;
     align-items: center;
     flex-direction: column;
-
 }
 
 .container input{
     background-color: #FFFFFF;
-    color: #959595;
+    color: #0c2016;
+    font-size: 20px;
     border:none ; /*Remover as bordas*/
     width: 370px;
     height: 55px; /*Definir os tamanhos dos inputs*/
     outline: none; /*Remover as bordas de quando o usuário clica em uma caixa de texto, fica uma borda*/
-    border-radius: 10px; /*Deixar as bordas aredondadas*/
-    
+    border-radius: 10px; /*Deixar as bordas aredondadas*/ 
+    font-weight: bold;
+
 }
 
 
 .container h1 {
-
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
@@ -138,6 +101,7 @@ span{
     display: flex;
     margin-right: auto;
     color: #FFFFFF;
+    padding: 3px;
 }
 
 h2{
@@ -146,7 +110,6 @@ h2{
     font-weight: 700;
     font-size: 15px;
     line-height: 18px;
-
     text-align: center;
     color: #FFFFFF;
 
@@ -159,22 +122,21 @@ h3{
     font-size: 11px;
     line-height: 13px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
     width: 370px;
     margin-top: 10px;
     color: #FFFFFF;
 }
 
 input::placeholder{
-    color: #959595;
+    color: #8b7c7c;
     font-size: 16px; /*Tamanho do texto que tem dentro do input (não o texto que a pessoa escreve)*/
     font-style: normal;
     font-weight: 700;
     line-height: 19px;
     display: flex;
     align-items: center;    
-    color: #959595;
-    padding-left: 10px; /*Dar um espaço entre o texto e as bordas da caixa de texto*/
+
 }
 
 form [type="submit"]{
@@ -188,6 +150,7 @@ form [type="submit"]{
     margin-right: auto;
     height: 40px; /*Definir os tamanhos dos inputs*/
     width: 150px;
+    margin-top: 10px;
 
 }
 
@@ -199,6 +162,13 @@ form [value="Entrar"]{
     display: flex;
     justify-content: center;
 }
+
+
+form [type="text"], form [type="password"] {
+    padding-left: 10px; /*Dar um espaço entre o texto e as bordas da caixa de texto*/
+}
+    
+
 
 /* ---------------------- Roda pé --------------------*/
 
