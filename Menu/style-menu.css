@@ -185,13 +185,18 @@ main .meio{
     border-radius: 20px;
     width: 18vh;
     height: 18vh;
+    background: #246644 url("/Menu/img-menu/matricula.png") no-repeat center center;
+    background-size: 80%; /* define o tamanho da imagem em relação ao botão */
     margin-right: 95px;
+
 }
 
 
 .linha-cima .linha1-2{
     background-color: #246644;
     border-radius: 20px;
+    background: #246644 url("/Menu/img-menu/boletim.png") no-repeat center center;
+    background-size: 63%; /* define o tamanho da imagem em relação ao botão */
     width: 18vh;
     height: 18vh;
 }
@@ -201,12 +206,16 @@ main .meio{
     border-radius: 20px;
     width: 18vh;
     height: 18vh;
+    background: #246644 url("/Menu/img-menu/historico.png") no-repeat center center;
+    background-size: 85%; /* define o tamanho da imagem em relação ao botão */
     margin-right: 95px;
 }
 
 .linha-baixo .linha2-2{
     background-color: #246644;
     border-radius: 20px;
+    background: #246644 url("/Menu/img-menu/declaracao.png") no-repeat center center;
+    background-size: 85%; /* define o tamanho da imagem em relação ao botão */
     width: 18vh;
     height: 18vh;
     
