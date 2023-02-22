@@ -8,7 +8,6 @@
 
 body{
     background-color: #FFFFFF;
-    /* color: white; */
     min-height: 100vh; /*Altura mínima da página*/
     min-width: 10vw; /*Largura minima*/
 }
@@ -28,26 +27,26 @@ header .logo {
 
 .logo img{
     width: 40vh;
-}
+} 
 
 
-/*  ------------------ aluno dados ------------------ */
+/*  ------------------ Informações do aluno ------------------ */
 .aluno_dados {
     border-collapse: collapse;
     width: 100%;
     text-align: center;
-    margin: 40px auto;
+    margin: 10px auto;
     font-size: 1.25em;
-    border-top-left-radius: 20px;
+    border-radius: 20px;
+    /* border-top-left-radius: 20px;  (Só podia ser o xonas né vey, colocar 4 linhas de código pra fazer a mesma coisa)
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 20px; */
     overflow: hidden;
     
   }
   
-.aluno_dados th,
-.aluno_dados td {
+.aluno_dados th, .aluno_dados td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -61,23 +60,21 @@ header .logo {
     background-color: #246644;
     color: white;
   }
-/*  ------------------------------------ */
 
+
+/*  ------------------ boletim css ------------------ */
 .boletim {
+  
     border-collapse: collapse;
     width: 100%;
     text-align: center;
     margin: 40px auto;
     font-size: 1.25em;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
     overflow: hidden;
   }
   
-.boletim th,
-.boletim td {
+.boletim th,.boletim td {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
@@ -93,11 +90,12 @@ header .logo {
   }
 
 
+
 /*  ------------------ div principal com tudo ------------------ */
 .parte_principal{
     padding: 20px;  
+    
 }
-
 
 /*  ------------------ botoes ------------------ */
 .botoes {
@@ -111,7 +109,7 @@ header .logo {
     font-size: 18px;
     margin: 0 10px;
     border-radius: 10px;
-    border: 0px;
+    border: none;
     transition: all 0.3s ease;
   }
 
