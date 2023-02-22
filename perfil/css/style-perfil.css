@@ -39,7 +39,7 @@ header .logo {
 /* ------------------ centro --------------- */
 
 .centro{
-    height: 70vh;
+    height: 60vh;
     display:flex;
     justify-content: center;
     text-align: center;
@@ -247,13 +247,62 @@ h3{
 }
 
 
+.botoes{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    justify-content:right;
+    margin-right: 10px;
+    flex-direction: row;
+    
+}
+
+.sair [type="submit"]{
+    width: 100px;
+    height: 50px;
+    background: #246644 url("/perfil/img/sair.png") no-repeat center center;
+    background-size: 80%;
+    border-radius: 45px;
+    border: none;
+    cursor: pointer;
+}
+
+.config [type="submit"]{
+    width: 50px;
+    height: 50px;
+    background: #246644 url("/perfil/img/configuracoes.png") no-repeat center center;
+    background-size: 80%; /* define o tamanho da imagem em relação ao botão */
+    border-radius: 45px;
+    border: none;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+@media screen and (max-height: 1500px) {
+    .botoes{
+        margin-top: -90px;
+    }       
+}
+
+@media screen and (max-width: 1500px) {
+    .botoes{
+        margin-top: -80px;
+    }       
+}
+
+@media screen and (max-width: 1400px) {
+    .botoes{
+        margin-top: -20px;
+    }       
+}
+
 
 /* ---------------------- Roda pé --------------------*/
 
 
 footer {
     width: 100%;
-    height: 10vh;
+    height: 8vh;
     background: #246644;
     display: flex;
     align-items: center;
