@@ -62,6 +62,36 @@ header .logo {
   }
 
 
+@media only screen and (max-width: 750px)  {
+  .aluno_dados {
+    font-size: 1em;
+  }
+  
+}
+  @media only screen and (max-width: 530px)  {
+    
+    .aluno_dados {
+      margin: 3px auto;
+      font-size: 0.8em;
+      border-radius: 10px;
+      overflow: hidden;
+      
+    }
+    
+  .aluno_dados th, .aluno_dados td {
+      padding: 3px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+  }
+
+}
+
+@media only screen and (max-width: 430px) {
+  .aluno_dados {
+    font-size: 0.6em;
+  }
+}
+
 /*  ------------------ boletim css ------------------ */
 .boletim {
   
@@ -89,7 +119,34 @@ header .logo {
     color: white;
   }
 
+@media only screen and (max-width: 900px) {
+  .boletim {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 1em;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+.boletim th,.boletim td {
+    padding: 2px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
 
+}
+
+@media only screen and (max-width: 530px) {
+  .boletim {
+    margin: 20px auto;
+    font-size: 0.6em;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+}
 
 /*  ------------------ div principal com tudo ------------------ */
 .parte_principal{
@@ -118,3 +175,13 @@ header .logo {
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
+
+
+@media only screen and (max-width: 530px) {
+
+  button {
+    padding: 6px 11px;
+    font-size: 1em;
+    margin: 0 10px;
+  }
+}
