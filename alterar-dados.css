@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+}
+
+.Parte-cima {
+    background-color: #246644;
+    width: 100vw;
+    height: 15vh;
+}
+
+.Central-info {
+    background-color: #246644;
+    width:70vw;
+    height:70vh;
+    border-radius: 30px;
+    margin: 5% 15% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.Alterar{
+    font-family: 'Inter', sans-serif;
+    color: #Ffffff;
+    margin-top:-5%;
+    padding: auto;
+
+}
+label{
+    color: #Ffffff;
+    font-size:25px;
+    font-family: 'Inter', sans-serif;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: flex-start;
+    margin-right: 30%;
+    padding: 5px;
+}
+
+input{
+    font-family: 'Inter', sans-serif;
+    border: none;
+    border-radius: 11px;
+    width: 150%;
+    height: 25px;
+    padding:5px 5px;
+    margin: 2px;
+    
+}
+
+.logo{
+    width: 25%;
+    margin-top:-10px;
+    margin-left: 500px;
+    box-sizing:border-box;
+}
+.btn-1{
+    width: 25%;
+    height:15%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    margin-right: 490px;
+    margin-bottom:-113px;
+}
+.btn-cancelar{
+    background-color:red;
+    border-radius: 10px;
+    border:none;
+    width: 150px;
+    color: #Ffffff;
+    font-size: 20px;
+    font-family:'Inter', sans-serif;
+}
+
+.btn-2{
+    width: 25%;
+    height:15%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: flex-end;
+    margin-left: 430px;
+    margin-top: 50px;
+}
+.btn-alterar{
+    background-color:rgb(21, 139, 3);
+    border-radius: 10px;
+    border:none;
+    margin-left:5%;
+    width: 150px;
+    color: #Ffffff;
+    font-size: 20px;
+    font-family:'Inter', sans-serif;
+}
+
+.Parte-baixa{
+    background-color: #246644;
+    width: 100vw;
+    height: 15vh;
+}
+h2{
+    font-family: 'Inter',sans-serif;
+    color: #Ffffff;
+    width: 25%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:-10%;
+
+
+}
