@@ -72,44 +72,53 @@ span{
 
 select{
     border-radius: 5px;
-    height: 25px;
+    height: 30px;
     font-weight: bolder;
+    border: none;
+    cursor:pointer;
 
 }
 
 input{
-    
-    display: flex;
-    align-items: end;
+    border-radius: 5px;
+    height: 25px;
+    border: none;
+    cursor: pointer;
 }
 
 .botoes {
     display: flex;
-    justify-content: center;
     align-items: center;
-  }
+    margin: auto;
+}
   
-  button {
-    padding: 6px 11px;
-    font-size: 18px;
+button {
+    padding: 5px 10px;
+    font-size: 1em;
     margin: 0 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
     transition: all 0.3s ease;
-  }
+}
 
-  button:hover {
+button:hover {
     background-color: #b4b1b1;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-  }
+}
 
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 900px) {
+    select{
+        width: 50vw;
+    }
 
-  button {
-    padding: 6px 11px;
-    font-size: 1em;
-    margin: 0 10px;
-  }
+    .container h1{
+        font-size: 1.5em;
+    }
+
+    button {
+        padding: 5px
+    }
+
 }
