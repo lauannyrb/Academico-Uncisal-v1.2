@@ -35,6 +35,9 @@ main{
     background-color: #FFFFFF;
     height: 70vh;
     width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
@@ -45,6 +48,82 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    border-radius: 20px;
+}
+
+
+.container h1{
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    text-align: center;
+    flex-direction: column
+}
+
+label{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding-bottom:10px;
+}
+
+input{
+    border-radius: 10px;
+    height: 4vh;
+    width: 30vw;
+    padding-left: 5px;
+    border: none;
+}
+
+span{
+    padding-bottom: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 1rem;
+    margin: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.3s ease;
+    font-weight: bolder;
+    color: #FFFFFF;
+}
+
+#um{
+    background-color: red;
+}
+
+#dois{
+    background-color: rgb(207, 207, 13);
+}
+
+button:hover {
+    background-color: #555;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 700px){
+    .container{
+        height: 50vh;
+        width: 60vw;
+    }
+
+    input{
+        height: 4vh;
+        width: 50vw;
+        padding-left: 5px;
+    }
+
+    button{
+        padding: 8px 15px;
+        font-size: 0.8rem;
+        margin: 5px 10px;
+    }
+
 }
 
 
@@ -66,7 +145,7 @@ footer h1{
     font-family: "Inter";
     font-style: normal;
     font-weight: 700;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: #FFFFFF;
 }
 
